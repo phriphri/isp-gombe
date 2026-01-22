@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - Faculté des Lettres et Sciences Humaines</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inscription.css">
+</head>
+
+<body>
+
+<!-- MENU -->
+<header class="container my-4 mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark glass-nav">
+        <a href="#" class="navbar-brand fw-bold">
+            <img src="images/logo.png" alt="" class="d-inline-block" width="30" height="30">
+            ISP-GOMBE
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link active" href="faculte.html">Faculté</a></li>
+        <li class="nav-item"><a class="nav-link" href="inscription.html">Inscription</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="historique.html">Historique</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- FORMULAIRE -->
+<section class="form-section d-flex align-items-center justify-content-center">
+    <div class="glass-form p-5">
+        <h2 class="text-center mb-4">Formulaire d'inscription</h2>
+
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Prénom</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Téléphone</label>
+                <input type="tel" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Faculté</label>
+                <input type="text" class="form-control"
+                       value="Lettres et Sciences Humaines" readonly>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Département</label>
+                <select class="form-select">
+                    <option selected>Choisir...</option>
+                    <option>Orientation scolaire et professionnelle</option>
+                    <option>Gestion et administration des institutions scolaires</option>
+                    <option>Histoire, sciences sociales et patrimoine</option>
+                    <option>Français et langues africaines</option>
+                    <option>Anglais et cultures africaines</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Niveau</label>
+                <select class="form-select">
+                    <option selected>Choisir...</option>
+                    <option>L1</option>
+                    <option>L2</option>
+                    <option>L3</option>
+                    <option>M1</option>
+                    <option>M2</option>
+                </select>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-primary btn-lg">
+                    Soumettre l'inscription
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

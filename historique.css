@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #061a3a, #0a2a5f, #0e3a80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ .navbar {
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid white;
+    justify-content: space-between;
+    padding : 10px 20px ;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: top;
+    }
+}
+
+header,
+footer,
+main,
+section {
+    background: transparent !important;
+}
+.glass-nav {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    box-shadow: 0 10px 40px rgba(0ç, 0, 0, 0.4);         
+    max-width: 900px;
+    margin: auto;
+    padding: 35px;
+
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+.glass-box h4 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.glass-box h4:first-child {
+    margin-top: 0;
+}
